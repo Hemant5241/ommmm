@@ -7,14 +7,14 @@
     "author": {
         "name": "Lakshya",
         "email": "techiralthefuture@gmail.com",
-        "url": "https://www.josh.so/"
+        "url": "https://github.com/Techiral/"
     },
     "bugs": {
-        "url": "https://github.com/jshor/OrreryWeb/issues"
+        "url": "https://github.com/Techiral/OrreryWeb/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/jshor/OrreryWeb.git"
+        "url": "https://github.com/Techiral/OrreryWeb.git"
     },
     "license": "MIT",
     "scripts": {
@@ -30,8 +30,6 @@
         "deploy": "npm-run-all deploy:upload deploy:invalidate",
         "lint": "eslint src/**/*.js src/**/*.jsx",
         "lint:fix": "eslint --fix src/**/*.js src/**/*.jsx",
-        "ephemeris": "OrreryWeb-scripts -m ephemeris",
-        "orbitals": "OrreryWeb-scripts -m orbitals",
         "prepush": "npm-run-all test:coverage lint"
     },
     "dependencies": {
@@ -75,7 +73,6 @@
         "npm-run-all": "4.1.2",
         "react-test-renderer": "15.6.1",
         "rimraf": "2.6.2",
-        "OrreryWeb-scripts": "^1.0.3",
         "web-audio-mock": "^0.1.9"
     },
     "husky": {
