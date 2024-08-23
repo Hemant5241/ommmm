@@ -2,7 +2,7 @@
     "name": "OrreryWeb",
     "version": "1.0.1",
     "private": true,
-    "homepage": "https://techiral.github.io/OrreryWeb",
+    "homepage": "https://orreryweb.netlify.app",
     "description": "A real-time, WebGL-based interactive simulation of our solar system.",
     "author": {
         "name": "Lakshya",
